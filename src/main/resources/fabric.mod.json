@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "eldoria",
+	"version": "${version}",
+	"name": "Eldoria",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"dragonzuke"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/eldoria/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.dragonzuke.eldoria.Eldoria"
+		],
+		"fabric-datagen": [
+			"me.dragonzuke.eldoria.EldoriaDataGenerator"
+		]
+	},
+	"mixins": [
+		"eldoria.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

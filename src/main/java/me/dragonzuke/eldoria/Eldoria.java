@@ -18,6 +18,7 @@ public class Eldoria implements ModInitializer {
 
 		ModItems.registerModItems();
 
+		LOGGER.info("DEBUG: " + LOGGER.isDebugEnabled());
 		LOGGER.info("Starting Eldoria v" + VERSION);
 	}
 }

@@ -22,5 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPIRIT_CRYSTALS, Models.GENERATED);
         itemModelGenerator.register(ModItems.SILK, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLOTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLDEN_SCARAB, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUSTY_GOLDEN_SCARAB, Models.GENERATED);
     }
 }

@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SPIRIT_CRYSTALS);
                         entries.add(ModItems.SILK);
                         entries.add(ModItems.CLOTH);
+                        entries.add(ModItems.GOLDEN_SCARAB);
+                        entries.add(ModItems.DUSTY_GOLDEN_SCARAB);
 
                         // Blocks
 

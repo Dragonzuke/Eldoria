@@ -1,5 +1,7 @@
 package me.dragonzuke.eldoria;
 
+import me.dragonzuke.eldoria.item.ModItemGroups;
+import me.dragonzuke.eldoria.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,9 @@ public class Eldoria implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
 
 		LOGGER.info("Starting Eldoria v" + VERSION);
 	}

@@ -1,3 +1,6 @@
+# NOTE
+**THIS IS A WIP PROJECT. THIS WILL NOT WORK WITH CURRENT MINECRAFT VERSIONS AS IT IS NOT COMPILED YET. ANYTHING YOU SEE IN HERE IS NOT THE FINAL RELEASE PRODUCT. ANY ISSUES SHOULD BE REPORTED TO ```zukedev``` ON DISCORD**
+
 # Eldoria: Echoes of the Ancients
 
 Eldoria: Echoes of the Ancients is a Minecraft adventure mod that transports players into a world filled with the remnants of long-lost civilizations. Players will explore ancient ruins, uncover hidden lore, and face formidable foes as they piece together the history of Eldoria.

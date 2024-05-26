@@ -8,6 +8,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SPIRIT_CRYSTALS = registerItem("spirit_crystal", new Item(new Item.Settings()));
+    public static final Item SILK = registerItem("silk", new Item(new Item.Settings()));
+    public static final Item CLOTH = registerItem("cloth", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) { return Registry.register(Registries.ITEM, new Identifier(Eldoria.MOD_ID, name), item); }

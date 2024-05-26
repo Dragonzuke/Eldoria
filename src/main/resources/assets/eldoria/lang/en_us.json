@@ -1,5 +1,7 @@
 {
-  "itemgroup.items": "Eldoria",
+  "itemgroup.eldoria": "Eldoria",
 
-  "item.eldoria.spirit_crystal": "Spirit Crystals"
+  "item.eldoria.spirit_crystal": "Spirit Crystals",
+  "item.eldoria.silk": "Enchanted Silk",
+  "item.eldoria.cloth": "Enchanted Cloth"
 }

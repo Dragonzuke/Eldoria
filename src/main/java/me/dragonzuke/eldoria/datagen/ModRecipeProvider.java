@@ -13,11 +13,10 @@ import net.minecraft.registry.RegistryWrapper;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) { super(output, registriesFuture); }
+    public ModRecipeProvider(FabricDataOutput output) { super(output); }
 
     @Override
     public void generate(RecipeExporter exporter) {
-
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.CLOTH, ModItems.SILK);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILK, 4).input(ModItems.CLOTH).criterion(FabricRecipeProvider.hasItem(ModItems.CLOTH), FabricRecipeProvider.conditionsFromItem(ModItems.CLOTH)).offerTo(exporter);
     }

@@ -1,6 +1,15 @@
-// 1.20.6	2024-05-26T17:04:42.405097	Eldoria/Model Definitions
+// 1.20.4	2024-05-27T19:32:25.0422241	Eldoria/Model Definitions
 f4705bc3757a527b21ad9e5be5506f5c89c5800e assets\eldoria\models\item\spirit_crystal.json
-56d9144aaf282159d2c233feadedab59a9afffef assets\eldoria\models\item\silk.json
-5e2bae753e305f31951ee9f8734ba99e1c9904b9 assets\eldoria\models\item\golden_scarab.json
+2861847c56cf22f92f6d2b4f301b9ec835cf6bec assets\eldoria\models\item\sapphire_ore.json
 6b370638484e4088c205df74abebf3ad243429ba assets\eldoria\models\item\dusty_golden_scarab.json
 3a49b3630cda1eaba0f80b1eb68007a2e1cefa3a assets\eldoria\models\item\cloth.json
+0e546a6536fe8423867bd2811f5f4c8ca06d1ffe assets\eldoria\models\block\sapphire_ore.json
+c7e77e7fb8aff21768f915ac5211c3cbbde2e207 assets\eldoria\models\item\oceanic_steel.json
+dd0197dcc80964ef4e5d3f31e959ab33506170f4 assets\eldoria\models\item\rusted_oceanic_steel.json
+afc57937e3025234e331a717135e1284c8182ebc assets\eldoria\blockstates\sapphire_ore.json
+56d9144aaf282159d2c233feadedab59a9afffef assets\eldoria\models\item\silk.json
+6c6b01082ef4d50072c82bac866b630eb84ffa47 assets\eldoria\models\item\enchanted_sapphire.json
+5e2bae753e305f31951ee9f8734ba99e1c9904b9 assets\eldoria\models\item\golden_scarab.json
+9eb62a7591273b0825619d3a1a6d6e0d40bbdadd assets\eldoria\models\item\deepslate_sapphire_ore.json
+c7c4e7531ae0d569b1e6c5879486a42365eb2749 assets\eldoria\blockstates\deepslate_sapphire_ore.json
+a87c2cf11b885520e2ac030649bdfd49c3290737 assets\eldoria\models\block\deepslate_sapphire_ore.json

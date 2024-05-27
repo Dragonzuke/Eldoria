@@ -1,7 +1,9 @@
 package me.dragonzuke.eldoria;
 
+import me.dragonzuke.eldoria.block.ModBlocks;
 import me.dragonzuke.eldoria.item.ModItemGroups;
 import me.dragonzuke.eldoria.item.ModItems;
+import me.dragonzuke.eldoria.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,8 +17,9 @@ public class Eldoria implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 
 		LOGGER.info("DEBUG: " + LOGGER.isDebugEnabled());
 		LOGGER.info("Starting Eldoria v" + VERSION);

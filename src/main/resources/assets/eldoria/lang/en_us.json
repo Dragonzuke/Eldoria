@@ -5,5 +5,9 @@
   "item.eldoria.silk": "Enchanted Silk",
   "item.eldoria.cloth": "Enchanted Cloth",
   "item.eldoria.golden_scarab": "Golden Scarab",
-  "item.eldoria.dusty_golden_scarab": "Dusty Golden Scarab"
+  "item.eldoria.dusty_golden_scarab": "Dusty Golden Scarab",
+  "item.eldoria.enchanted_sapphire": "Enchanted Sapphire",
+
+  "block.eldoria.sapphire_ore": "Sapphire Ore",
+  "block.eldoria.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
 }

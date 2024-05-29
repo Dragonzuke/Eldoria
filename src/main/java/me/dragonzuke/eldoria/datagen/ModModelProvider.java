@@ -27,6 +27,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HEARTWOOD_PLANKS);
+
+        // Block Entities
+        blockStateModelGenerator.registerSimpleState(ModBlocks.ANCIENT_FORGE);
     }
 
     @Override

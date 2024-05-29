@@ -41,6 +41,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_HEARTWOOD_LOG);
                         entries.add(ModBlocks.HEARTWOOD_PLANKS);
 
+                        entries.add(ModBlocks.ANCIENT_FORGE);
+
                         // Armor
 
                         // Weapons

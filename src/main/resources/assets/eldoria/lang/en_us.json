@@ -24,5 +24,8 @@
   "block.eldoria.stripped_heartwood_wood": "Stripped heartwood Wood",
   "block.eldoria.ancient_leaves": "Ancient Leaves",
   "block.eldoria.ancient_planks": "Ancient Planks",
-  "block.eldoria.heartwood_planks": "Heartwood Planks"
+  "block.eldoria.heartwood_planks": "Heartwood Planks",
+
+  "block.eldoria.ancient_forge": "Ancient Forge",
+  "blockentity.eldoria.ancient_forge_name": "Ancient Forge"
 }

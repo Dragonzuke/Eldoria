@@ -1,6 +1,7 @@
 package me.dragonzuke.eldoria.block;
 
 import me.dragonzuke.eldoria.Eldoria;
+import me.dragonzuke.eldoria.block.custom.AncientForgeBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -35,4 +36,6 @@ public class ModBlocks {
     public static final Block STRIPPED_HEARTWOOD_WOOD = registerBlock("stripped_heartwood_wood", new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4.0f)));
 
     public static final Block HEARTWOOD_PLANKS = registerBlock("heartwood_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f)));
+
+    public static final Block ANCIENT_FORGE = registerBlock("ancient_forge", new AncientForgeBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).nonOpaque()));
 }

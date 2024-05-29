@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DBD",
+    "L L"
+  ],
+  "result": {
+    "item": "eldoria:ancient_forge"
+  }
+}

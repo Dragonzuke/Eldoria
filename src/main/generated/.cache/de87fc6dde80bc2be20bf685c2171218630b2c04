@@ -1,4 +1,4 @@
-// 1.20.4	2024-05-29T00:13:59.4264281	Eldoria/Block Loot Tables
+// 1.20.4	2024-05-29T02:57:17.7699008	Eldoria/Block Loot Tables
 0a1efa5a6e51991a6a286ad1e91f9c36b398d3e2 data\eldoria\loot_tables\blocks\oceanic_steel_ore.json
 049f25ec95096a17c74d7f54d4f8affd04374245 data\eldoria\loot_tables\blocks\sapphire_ore.json
 3ece39436d527ab7147d5be202e8a2802834a854 data\eldoria\loot_tables\blocks\ancient_log.json
@@ -11,4 +11,5 @@ e9ae5d9d3f1029d98a8aa5b7d03ea8051693c41e data\eldoria\loot_tables\blocks\ancient
 705a878592a03e33cdc855b0ee10144d43df5eee data\eldoria\loot_tables\blocks\stripped_heartwood_log.json
 c3a020c5741cd9b85f73af9ba2b8051b054304da data\eldoria\loot_tables\blocks\deepslate_oceanic_steel_ore.json
 8e74d548b10596b0c1f8b548ec2a3b3437cc428e data\eldoria\loot_tables\blocks\ancient_planks.json
+3ca7b1513942fd45cda59aed86a5fe79b4e417b1 data\eldoria\loot_tables\blocks\ancient_forge.json
 ad69df77776f15f36a25eb48442a329f84a93aad data\eldoria\loot_tables\blocks\ancient_leaves.json

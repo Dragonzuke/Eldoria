@@ -25,6 +25,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_HEARTWOOD_LOG);
         addDrop(ModBlocks.STRIPPED_HEARTWOOD_WOOD);
         addDrop(ModBlocks.HEARTWOOD_PLANKS);
+        addDrop(ModBlocks.ANCIENT_FORGE);
 
         addDrop(ModBlocks.ANCIENT_LEAVES, leavesDrops(ModBlocks.ANCIENT_LEAVES, ModBlocks.SAPPHIRE_ORE, 0.005f)); // TODO add sapling
     }

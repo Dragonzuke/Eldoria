@@ -1,4 +1,4 @@
-// 1.20.4	2024-05-29T00:13:59.4284638	Eldoria/Recipes
+// 1.20.4	2024-05-29T02:57:17.7719214	Eldoria/Recipes
 a12ab54d3c3f2a68c8639cc92f929706881b0e43 data\eldoria\advancements\recipes\misc\silk.json
 34a200f692b284f7323d20467f517f9a28ee7861 data\eldoria\advancements\recipes\misc\enchanted_sapphire_from_smelting_deepslate_sapphire_ore.json
 11004761f3bcd6a0809aac26abe603ad8645f8b6 data\eldoria\recipes\enchanted_sapphire_from_smelting_sapphire_ore.json
@@ -12,6 +12,8 @@ dcda879c7d58d0738eb63674197b771b3e27eb51 data\eldoria\recipes\silk.json
 164b50cadd7d46c0006176cdb9f1deb833a3039f data\eldoria\advancements\recipes\misc\oceanic_steel_from_smelting_oceanic_steel_ore.json
 3a0f04062ba2bc8b6b3c4867151adb16d555f514 data\eldoria\recipes\enchanted_sapphire_from_blasting_sapphire_ore.json
 5dafc2698f5a317e5ddda5d217bb8baf7b4aed65 data\eldoria\recipes\enchanted_sapphire_from_smelting_deepslate_sapphire_ore.json
+7bb7d9c668d9e7c586ee712fbc690f42db579bb8 data\eldoria\recipes\ancient_forge.json
+ff1c1619312ab6dba5301b544df1598947021091 data\eldoria\advancements\recipes\misc\ancient_forge.json
 d2df654a64c519a3cca59794c9ba1489819dce9c data\eldoria\advancements\recipes\misc\cloth.json
 fdfefb4fc2f24f4ece5f4245a9df1a659b556290 data\eldoria\advancements\recipes\misc\enchanted_sapphire_from_smelting_sapphire_ore.json
 1fba4617c649daaa7166560f09ac2a691d631633 data\eldoria\advancements\recipes\misc\oceanic_steel_from_smelting_deepslate_oceanic_steel_ore.json

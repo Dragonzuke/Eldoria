@@ -17,6 +17,16 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAPPHIRE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OCEANIC_STEEL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_OCEANIC_STEEL_ORE);
+
+        // Wood things
+        blockStateModelGenerator.registerLog(ModBlocks.ANCIENT_LOG).log(ModBlocks.ANCIENT_LOG).wood(ModBlocks.ANCIENT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ANCIENT_LOG).log(ModBlocks.STRIPPED_ANCIENT_LOG).wood(ModBlocks.STRIPPED_ANCIENT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HEARTWOOD_LOG).log(ModBlocks.STRIPPED_HEARTWOOD_LOG).wood(ModBlocks.STRIPPED_HEARTWOOD_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HEARTWOOD_PLANKS);
     }
 
     @Override
@@ -29,5 +39,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENCHANTED_SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OCEANIC_STEEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUSTED_OCEANIC_STEEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_OCEANIC_STEEL, Models.GENERATED);
     }
 }

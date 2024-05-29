@@ -18,6 +18,9 @@
 		"main": [
 			"me.dragonzuke.eldoria.Eldoria"
 		],
+		"client": [
+			"me.dragonzuke.eldoria.EldoriaModClient"
+		],
 		"fabric-datagen": [
 			"me.dragonzuke.eldoria.EldoriaDataGenerator"
 		]

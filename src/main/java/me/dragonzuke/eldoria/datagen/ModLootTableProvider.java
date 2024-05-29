@@ -1,23 +1,9 @@
 package me.dragonzuke.eldoria.datagen;
 
+import me.dragonzuke.eldoria.block.ModBlocks;
+import me.dragonzuke.eldoria.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.block.Block;
-import net.minecraft.data.server.loottable.BlockLootTableGenerator;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.item.Item;
-import net.minecraft.loot.LootTable;
-import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
-import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.entry.LeafEntry;
-import net.minecraft.loot.entry.LootPoolEntry;
-import net.minecraft.loot.function.ApplyBonusLootFunction;
-import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.provider.number.UniformLootNumberProvider;
-import net.minecraft.predicate.StatePredicate;
-import net.minecraft.registry.RegistryWrapper;
-
-import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
@@ -26,6 +12,20 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDrop(ModBlocks.SAPPHIRE_ORE);
+        addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        addDrop(ModBlocks.OCEANIC_STEEL_ORE, oreDrops(ModBlocks.OCEANIC_STEEL_ORE, ModItems.RAW_OCEANIC_STEEL));
+        addDrop(ModBlocks.DEEPSLATE_OCEANIC_STEEL_ORE, oreDrops(ModBlocks.DEEPSLATE_OCEANIC_STEEL_ORE, ModItems.RAW_OCEANIC_STEEL));
 
+        addDrop(ModBlocks.ANCIENT_LOG);
+        addDrop(ModBlocks.ANCIENT_WOOD);
+        addDrop(ModBlocks.STRIPPED_ANCIENT_LOG);
+        addDrop(ModBlocks.STRIPPED_ANCIENT_WOOD);
+        addDrop(ModBlocks.ANCIENT_PLANKS);
+        addDrop(ModBlocks.STRIPPED_HEARTWOOD_LOG);
+        addDrop(ModBlocks.STRIPPED_HEARTWOOD_WOOD);
+        addDrop(ModBlocks.HEARTWOOD_PLANKS);
+
+        addDrop(ModBlocks.ANCIENT_LEAVES, leavesDrops(ModBlocks.ANCIENT_LEAVES, ModBlocks.SAPPHIRE_ORE, 0.005f)); // TODO add sapling
     }
 }

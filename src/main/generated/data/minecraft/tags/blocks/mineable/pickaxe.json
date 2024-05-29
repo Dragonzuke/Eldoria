@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "eldoria:deepslate_sapphire_ore",
+    "eldoria:sapphire_ore",
+    "eldoria:deepslate_oceanic_steel_ore",
+    "eldoria:oceanic_steel_ore"
+  ]
 }

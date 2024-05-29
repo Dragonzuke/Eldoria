@@ -9,7 +9,20 @@
   "item.eldoria.enchanted_sapphire": "Enchanted Sapphire",
   "item.eldoria.oceanic_steel": "Oceanic Steel",
   "item.eldoria.rusted_oceanic_steel": "Rusted Oceanic Steel ",
+  "item.eldoria.raw_oceanic_steel": "Raw Oceanic Steel ",
 
   "block.eldoria.sapphire_ore": "Sapphire Ore",
-  "block.eldoria.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
+  "block.eldoria.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.eldoria.oceanic_steel_ore": "Oceanic Steel Ore",
+  "block.eldoria.deepslate_oceanic_steel_ore": "Deepslate Oceanic Steel Ore",
+
+  "block.eldoria.ancient_log": "Ancient Log",
+  "block.eldoria.ancient_wood": "Ancient Wood",
+  "block.eldoria.stripped_ancient_log": "Stripped Ancient Log",
+  "block.eldoria.stripped_ancient_wood": "Stripped Ancient Wood",
+  "block.eldoria.stripped_heartwood_log": "Stripped Heartwood Log",
+  "block.eldoria.stripped_heartwood_wood": "Stripped heartwood Wood",
+  "block.eldoria.ancient_leaves": "Ancient Leaves",
+  "block.eldoria.ancient_planks": "Ancient Planks",
+  "block.eldoria.heartwood_planks": "Heartwood Planks"
 }

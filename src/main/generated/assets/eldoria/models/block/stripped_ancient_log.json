@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "eldoria:block/stripped_ancient_log_top",
+    "side": "eldoria:block/stripped_ancient_log"
+  }
+}

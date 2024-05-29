@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item DUSTY_GOLDEN_SCARAB = registerItem("dusty_golden_scarab", new DustyGoldenScarabItem(new Item.Settings()));
     public static final Item ENCHANTED_SAPPHIRE = registerItem("enchanted_sapphire", new EnchantedSapphireItem(new Item.Settings()));
     public static final Item OCEANIC_STEEL = registerItem("oceanic_steel", new Item(new Item.Settings()));
+    public static final Item RAW_OCEANIC_STEEL = registerItem("raw_oceanic_steel", new Item(new Item.Settings()));
     public static final Item RUSTED_OCEANIC_STEEL = registerItem("rusted_oceanic_steel", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) { return Registry.register(Registries.ITEM, new Identifier(Eldoria.MOD_ID, name), item); }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "eldoria:block/stripped_heartwood_log_top",
+    "side": "eldoria:block/stripped_heartwood_log"
+  }
+}

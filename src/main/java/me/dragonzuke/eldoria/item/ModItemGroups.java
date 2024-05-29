@@ -26,10 +26,20 @@ public class ModItemGroups {
                         entries.add(ModItems.ENCHANTED_SAPPHIRE);
                         entries.add(ModItems.OCEANIC_STEEL);
                         entries.add(ModItems.RUSTED_OCEANIC_STEEL);
+                        entries.add(ModItems.RAW_OCEANIC_STEEL);
 
                         // Blocks
                         entries.add(ModBlocks.SAPPHIRE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.OCEANIC_STEEL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_OCEANIC_STEEL_ORE);
+
+                        entries.add(ModBlocks.ANCIENT_LOG);
+                        entries.add(ModBlocks.STRIPPED_ANCIENT_LOG);
+                        entries.add(ModBlocks.ANCIENT_PLANKS);
+                        entries.add(ModBlocks.ANCIENT_LEAVES);
+                        entries.add(ModBlocks.STRIPPED_HEARTWOOD_LOG);
+                        entries.add(ModBlocks.HEARTWOOD_PLANKS);
 
                         // Armor
 

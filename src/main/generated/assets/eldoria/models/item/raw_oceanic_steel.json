@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eldoria:item/raw_oceanic_steel"
+  }
+}

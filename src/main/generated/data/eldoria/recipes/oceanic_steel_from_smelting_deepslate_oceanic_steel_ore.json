@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "oceanic_steel",
+  "ingredient": {
+    "item": "eldoria:deepslate_oceanic_steel_ore"
+  },
+  "result": "eldoria:oceanic_steel"
+}

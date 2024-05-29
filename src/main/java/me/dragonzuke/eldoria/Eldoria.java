@@ -1,8 +1,10 @@
 package me.dragonzuke.eldoria;
 
 import me.dragonzuke.eldoria.block.ModBlocks;
+import me.dragonzuke.eldoria.block.entity.ModBlockEntities;
 import me.dragonzuke.eldoria.item.ModItemGroups;
 import me.dragonzuke.eldoria.item.ModItems;
+import me.dragonzuke.eldoria.screen.ModScreenHandlers;
 import me.dragonzuke.eldoria.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,7 +22,9 @@ public class Eldoria implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 		ModLootTableModifiers.modifyLootTables();
+		ModScreenHandlers.registerScreenHandlers();
 
 		StrippableBlockRegistry.register(ModBlocks.ANCIENT_LOG, ModBlocks.STRIPPED_ANCIENT_LOG);
 		StrippableBlockRegistry.register(ModBlocks.ANCIENT_WOOD, ModBlocks.STRIPPED_ANCIENT_WOOD);

@@ -10,6 +10,7 @@
   "item.eldoria.oceanic_steel": "Oceanic Steel",
   "item.eldoria.rusted_oceanic_steel": "Rusted Oceanic Steel ",
   "item.eldoria.raw_oceanic_steel": "Raw Oceanic Steel ",
+  "item.eldoria.ruin_scroll": "Ruin Scroll ",
 
   "block.eldoria.sapphire_ore": "Sapphire Ore",
   "block.eldoria.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
@@ -27,5 +28,8 @@
   "block.eldoria.heartwood_planks": "Heartwood Planks",
 
   "block.eldoria.ancient_forge": "Ancient Forge",
-  "blockentity.eldoria.ancient_forge_name": "Ancient Forge"
+  "blockentity.eldoria.ancient_forge_name": "Ancient Forge",
+
+  "key.categories.eldoria": "Eldoria",
+  "key.eldoria.open_ruin_paper_gui": "Ruin Paper GUI"
 }

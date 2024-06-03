@@ -12,6 +12,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
+
+    // TODO: Break up into separate groups
+
     public static final ItemGroup ELDORIA_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Eldoria.MOD_ID, "eldoria_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eldoria"))
@@ -27,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.OCEANIC_STEEL);
                         entries.add(ModItems.RUSTED_OCEANIC_STEEL);
                         entries.add(ModItems.RAW_OCEANIC_STEEL);
+                        entries.add(ModItems.NATURE_ESSENCE);
 
                         // Blocks
                         entries.add(ModBlocks.SAPPHIRE_ORE);

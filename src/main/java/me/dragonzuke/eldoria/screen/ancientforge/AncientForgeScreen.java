@@ -1,4 +1,4 @@
-package me.dragonzuke.eldoria.screen;
+package me.dragonzuke.eldoria.screen.ancientforge;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import me.dragonzuke.eldoria.Eldoria;

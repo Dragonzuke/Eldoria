@@ -1,6 +1,7 @@
-package me.dragonzuke.eldoria.screen;
+package me.dragonzuke.eldoria.screen.ancientforge;
 
 import me.dragonzuke.eldoria.block.entity.AncientForgeBlockEntity;
+import me.dragonzuke.eldoria.screen.ModScreenHandlers;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;

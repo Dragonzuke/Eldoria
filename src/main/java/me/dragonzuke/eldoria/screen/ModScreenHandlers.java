@@ -1,6 +1,7 @@
 package me.dragonzuke.eldoria.screen;
 
 import me.dragonzuke.eldoria.Eldoria;
+import me.dragonzuke.eldoria.screen.ancientforge.AncientForgeScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
